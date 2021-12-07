@@ -18,25 +18,23 @@ div.menu-items,
 nav.navigation {
   background-color: #f2b6cb;
   padding: 20px;
-  
 }
 
-.text-menu{
+ul.text-size-menu{
   font-size: 1.2em;
+  font-weight: 700;
 }
 
-nav.navigation{
+hr, nav.navigation{
   border-top: black solid 2px;
   border-bottom: black solid 2px;
 }
 
-.menu{
-  background-color: #ffff99;
+
+button{
+  border-style: solid;
+  border-width: 3px;
 }
-/*]
-.navbar-toggler{
-  border: 2px black;
-}*/
 
 div.menu-items {
   
