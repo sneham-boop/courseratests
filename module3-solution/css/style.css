@@ -1,16 +1,51 @@
-
 * {
-  font-family: Helvetica;
+  font-family: monospace;
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
 
-
-
-
 h1 {
-  margin:15px 0 30px 0;
+  margin: 30px 0 30px 0;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+div.menu-items,
+nav.navigation {
+  background-color: #f2b6cb;
+  padding: 20px;
+  
+}
+
+.text-menu{
+  font-size: 1.2em;
+}
+
+nav.navigation{
+  border-top: black solid 2px;
+  border-bottom: black solid 2px;
+}
+
+.menu{
+  background-color: #ffff99;
+}
+/*]
+.navbar-toggler{
+  border: 2px black;
+}*/
+
+div.menu-items {
+  
+  text-align: auto;
+}
+
+.navbar-brand {
+font-weight: bold;
+font-size: 1.9em;;
 }
 /*
 .menu {
@@ -48,15 +83,12 @@ p {
 
 /* Large */
 @media (min-width: 992px) {
- 
 }
 
 /* Medium */
 @media (min-width: 768px) and (max-width: 991px) {
-    
 }
 
 /* Small */
 @media (max-width: 576px) {
-    
 }
