@@ -1,5 +1,5 @@
 * {
-  font-family: monospace;
+  font-family: Monospace;
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
@@ -12,11 +12,12 @@ h1 {
 
 h2 {
   font-weight: bold;
+  font-size: 20px;
 }
 
 div.menu-items,
 nav.navigation {
-  background-color: #f2b6cb;
+  background-color: #c0e4ec;
   padding: 20px;
 }
 
@@ -44,6 +45,18 @@ div.menu-items {
 .navbar-brand {
 font-weight: bold;
 font-size: 1.9em;;
+}
+
+#navbarnav{
+  background-color: yellow;
+}
+
+.nav-link{
+  padding:0px;
+}
+
+.navbar-toggler{
+  color:blueviolet;
 }
 /*
 .menu {
