@@ -26,11 +26,14 @@ ul.text-size-menu{
   font-weight: 700;
 }
 
-hr, nav.navigation{
+nav.navigation{
   border-top: black solid 2px;
   border-bottom: black solid 2px;
 }
 
+hr{
+  background-color: chartreuse;
+}
 
 button{
   border-style: solid;
@@ -55,8 +58,13 @@ font-size: 1.9em;;
   padding:0px;
 }
 
-.navbar-toggler{
-  color:blueviolet;
+.menu-divider{
+  background-color: white;
+  height: 2px !important;
+}
+
+.dropdown{
+  justify-content: flex-end;
 }
 /*
 .menu {
